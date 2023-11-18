@@ -1,0 +1,17 @@
+.Adress {
+    background-color: paleturquoise;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 5px;
+    width: 50%;
+}
+
+.Adress p:first-child {
+    font-size: 8px;
+    line-height: 8px;
+    color: gray;
+}
+
+.Adress p:last-child {
+    line-height: 12px;
+}

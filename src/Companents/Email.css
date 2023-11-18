@@ -1,0 +1,17 @@
+.Email {
+    background-color: paleturquoise;   
+    padding: 3px;
+    border-radius: 2px;
+    margin: 5px;
+    width: 50%;
+   }
+   
+   .Email p:first-child {
+       font-size: 8px;
+       line-height: 8px;
+       color: gray;
+   }
+   
+   .Email p:last-child {
+       line-height: 12px;
+   }

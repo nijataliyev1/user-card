@@ -1,0 +1,16 @@
+.Name {
+ background-color: paleturquoise;   
+ padding: 3px;
+ border-radius: 2px;
+ margin: 5px;
+}
+
+.Name p:first-child {
+    font-size: 8px;
+    line-height: 8px;
+    color: gray;
+}
+
+.Name p:last-child {
+    line-height: 12px;
+}

@@ -1,0 +1,21 @@
+.PersonalInfo {
+    width: 45%;
+}
+
+.PersonalInfo div {
+    background-color: paleturquoise;
+    padding: 3px;
+    border-radius: 2px;
+    margin: 5px 0 10px 5px;
+    width: 100%;
+}
+
+.PersonalInfo div p:first-child {
+    font-size: 8px;
+    line-height: 8px;
+    color: gray;
+}
+
+.PersonalInfo div p:last-child {
+    line-height: 12px;
+}

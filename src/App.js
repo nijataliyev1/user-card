@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Name from "./Companents/Name.jsx"
+import Email from './Companents/Email.jsx';
+import Adress from './Companents/Adress.jsx';
+import PersonalInfo from './Companents/PersonalInfo.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='container'>
+        <Name name="Nijat Aliyev" />
+        <div className='others'>
+          <PersonalInfo birth="29 03 2004" job="student" />
+          <Adress adress="Baku" />
+          <Email email="nicat3699@gmail.com" />
+        </div>
+      </div>
     </div>
   );
 }
